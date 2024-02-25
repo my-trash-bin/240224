@@ -1,8 +1,6 @@
-mod singly_linked_list;
-
 use std::io;
 
-use singly_linked_list::SinglyLinkedList;
+use test00::SinglyLinkedList;
 
 fn main() {
     let mut sll = SinglyLinkedList::new();
